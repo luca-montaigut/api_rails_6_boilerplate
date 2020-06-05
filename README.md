@@ -20,7 +20,7 @@ Starter for api project with :
 
 `rails s`
 
-Your API is now running on 'http://localhost:8080'
+Your API is now running on http://localhost:8080
 
 ## 🐰 Auteurs
 Luca Montaigut : https://github.com/luca-montaigut
