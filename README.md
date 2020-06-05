@@ -1,24 +1,26 @@
-# README
+# Api_Rails_6_Boilerplate
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Starter for api project with :
+- Ruby 2.7.1
+- Rails 6.0.3.1
+- PostgreSQL 12.3
+- Devise-JWT 0.6.6 (Blacklist revocation strategie)
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+`git clone git@github.com:luca-montaigut/api_rails_6_boilerplate.git`
 
-* System dependencies
+`cd api_rails_6_boilerplate`
 
-* Configuration
+`bundle install`
 
-* Database creation
+`echo DEVISE_JWT_SECRET_KEY=\"$(rake secret)\" > .env`
 
-* Database initialization
+`rails db:create && rails db:migrate`
 
-* How to run the test suite
+`rails s`
 
-* Services (job queues, cache servers, search engines, etc.)
+Your API is now running on http://localhost:8080
 
-* Deployment instructions
-
-* ...
+## 🐰 Auteurs
+Luca Montaigut : https://github.com/luca-montaigut
