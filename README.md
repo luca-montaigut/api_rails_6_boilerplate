@@ -5,6 +5,7 @@ Starter for api project with :
 - Rails 6.0.3.1
 - PostgreSQL 12.3
 - Devise-JWT 0.6.6 (Blacklist revocation strategie)
+- Namespace for versionning ready
 
 ## Installation
 
