@@ -24,5 +24,5 @@ Starter for api project with :
 
 Your API is now running on http://localhost:8080
 
-## 🐰 Auteurs
+## 🐰 Auteur
 Luca Montaigut : https://github.com/luca-montaigut
