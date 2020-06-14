@@ -5,6 +5,9 @@ Rails.application.routes.draw do
     sign_in: 'login',
     sign_out: 'logout',
     registration: 'signup'
+  },
+  controllers: {
+    sessions: 'sessions',
   }
 
   namespace :api, defaults: { format: :json } do
