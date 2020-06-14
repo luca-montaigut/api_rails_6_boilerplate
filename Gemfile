@@ -28,6 +28,8 @@ gem 'rack-cors', '~> 1.1.1'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  # Display mail in a new tab
+  gem "letter_opener", '~> 1.7.0'
 end
 
 group :development do
@@ -40,5 +42,12 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+# Authentication
 gem 'devise-jwt', '~> 0.6.0'
+
+# Evironnement variables
 gem 'dotenv-rails', '~> 2.7.5'
+
+# BDD helpers
+gem 'table_print', '~> 1.5.6'
+gem 'faker', '~> 2.12.0'
