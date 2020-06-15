@@ -6,7 +6,7 @@ Starter for api project with :
 - PostgreSQL 12.3
 - Devise-JWT 0.6.0 (Blacklist revocation strategie)
 - Namespace for versionning
-- React-Redux front with authentication config on https://github.com/luca-montaigut/react_boilerplate
+- React-Redux front with authentication already config on ![the associated front app](https://github.com/luca-montaigut/react_boilerplate)
 
 ## Installation
 
